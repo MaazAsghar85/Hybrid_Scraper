@@ -82,7 +82,7 @@ With **Hybrid Scraper**, you can download:
 
 - Instagram user's profile picture (PFP)
 - Posts media (images and videos)
-- Posts text (captions)
+- Posts text (captions, comments, likes, tags)
 - Reels links and texts
 - Instagram highlights
 - Followers list
