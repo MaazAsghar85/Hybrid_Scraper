@@ -1,0 +1,23 @@
+version: '3'
+services:
+  client:
+    build:
+      context: ./client
+    container_name: cpp_client
+    ports:
+      - "8080:8080"   # Keep this as it is for the server
+    stdin_open: true
+    tty: true
+
+  server:
+    build:
+      context: ./server
+    container_name: playwright_server
+    ports:
+      - "8081:8080"   # Map container's 8080 to host's 8081
+    stdin_open: true
+    tty: true
+    volumes:
+      # Mount everything except node_modules and package-lock.json
+      - ./:/app
+      - /app/node_modules  # Prevents node_modules from being saved locally
