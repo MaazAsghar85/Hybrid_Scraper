@@ -85,16 +85,9 @@ instaRS>>
 
 - Ensure that Docker is running on your machine.
 - Make sure you run `docker-compose build` before `docker-compose up` to avoid missing dependencies.
-- If you encounter any issues with file or directory permissions, ensure that the `screenshot` directory is properly set up and accessible.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
 ## Contact
 
-For questions, please contact **Maaz Asghar** at [maazasghar@example.com](mailto:maazasghar@example.com).
+For questions, please contact **Maaz Asghar** at [maazasghar@example.com](mailto:maazasghar85@gmail.com).
